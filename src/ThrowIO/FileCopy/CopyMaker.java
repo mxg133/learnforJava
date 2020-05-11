@@ -1,4 +1,4 @@
-package Throw.File;
+package ThrowIO.FileCopy;
 
 import java.io.*;
 
@@ -9,7 +9,7 @@ public class CopyMaker {
     BufferedWriter dest;
     String line;//指向读取中间缓冲的数据
 
-    private boolean openFils(){
+    private boolean openFiles(){
         try{
             source = new BufferedReader(new FileReader(sourceName));
         }catch (IOException iox){
@@ -60,6 +60,6 @@ public class CopyMaker {
     public boolean copy(String scr, String dst){
         sourceName = scr;
         destName = dst;
-        return openFils() && copyFiles() && closeFiles();
+        return openFiles() && copyFiles() && closeFiles();
     }
 }

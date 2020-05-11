@@ -1,4 +1,4 @@
-package Throw;
+package ThrowIO;
 
 public class ThrowText {
     public static void main(String[] args) {

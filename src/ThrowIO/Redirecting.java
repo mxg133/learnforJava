@@ -1,4 +1,4 @@
-package Throw;
+package ThrowIO;
 
 import java.io.*;
 
