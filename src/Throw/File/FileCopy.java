@@ -1,4 +1,4 @@
-package Throw;
+package Throw.File;
 
 public class FileCopy {
     public static void main(String[] args) {

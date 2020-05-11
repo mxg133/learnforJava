@@ -1,4 +1,4 @@
-package Throw;
+package Throw.File;
 
 import java.io.*;
 
