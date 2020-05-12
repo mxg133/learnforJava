@@ -1,4 +1,4 @@
-package ThrowIO.File;
+package ThrowIO.FileTxt;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
