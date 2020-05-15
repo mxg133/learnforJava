@@ -1,4 +1,4 @@
-
+package atguigu.day01;
 /*
 1. java规范的三种注释方式：
 单行注释

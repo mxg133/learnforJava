@@ -1,3 +1,5 @@
+package atguigu.day02;
+
 /*
 Java定义的数据类型
 

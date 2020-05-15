@@ -1,3 +1,5 @@
+package atguigu.day02;
+
 /*
 String类型变量的使用
 1. String属于引用数据类型,翻译为：字符串

@@ -1,3 +1,5 @@
+package atguigu.day02;
+
 /*
 变量的使用
 1. java定义变量的格式：数据类型 变量名 = 变量值;

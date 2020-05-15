@@ -1,3 +1,5 @@
+package atguigu.day02;
+
 class VariableTest4 {
 	public static void main(String[] args) {
 

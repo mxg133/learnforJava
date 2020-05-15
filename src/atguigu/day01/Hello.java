@@ -1,3 +1,5 @@
+package atguigu.day01;
+
 /*
 对第一个java程序进行总结
 1. java程序编写-编译-运行的过程

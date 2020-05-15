@@ -1,3 +1,5 @@
+package atguigu.day02;
+
 /*
 基本数据类型之间的运算规则：
 
