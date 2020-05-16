@@ -51,5 +51,4 @@ public class ArrayTest1 {
 			System.out.println("北京天气不错！");
 		}
 	}
-
 }

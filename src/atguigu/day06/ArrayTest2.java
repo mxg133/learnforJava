@@ -13,8 +13,6 @@ package atguigu.day06;
  *   ④ 如何遍历数组
  *   ⑤ 数组元素的默认初始化值 :见 ArrayTest3.java
  *   ⑥ 数组的内存解析 :见 ArrayTest3.java
- * 
- * 
  */
 public class ArrayTest2 {
 	public static void main(String[] args) {
