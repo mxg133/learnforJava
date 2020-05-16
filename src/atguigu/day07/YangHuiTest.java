@@ -37,10 +37,5 @@ public class YangHuiTest {
 			}
 			System.out.println();
 		}
-		
-		
-		
 	}
-	
-	
 }
