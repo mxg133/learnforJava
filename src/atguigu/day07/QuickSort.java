@@ -39,8 +39,7 @@ public class QuickSort {
 	public static void quickSort(int[] data){
 		subSort(data,0,data.length-1);
 	}
-	
-	
+
 	public static void main(String[] args) {
 		int[] data = { 9, -16, 30, 23, -30, -49, 25, 21, 30 };
 		System.out.println("排序之前：\n" + java.util.Arrays.toString(data));
