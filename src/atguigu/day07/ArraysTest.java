@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 /*
  * java.util.Arrays:操作数组的工具类，里面定义了很多操作数组的方法
- * 
- * 
  */
 public class ArraysTest {
 	public static void main(String[] args) {
