@@ -34,5 +34,6 @@ public class ArrayExceptionTest {
 		String[] arr3 = new String[]{"AA","BB","CC"};
 		arr3[0] = null;
 		System.out.println(arr3[0].toString());
+
 	}
 }
