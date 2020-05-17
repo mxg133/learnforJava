@@ -45,19 +45,19 @@ public class ArrayTest2 {
 		
 		boolean isFlag = true;
 		
-		for(int i = 0;i < arr.length;i++){
-			
-			if(dest.equals(arr[i])){
+		for(int i = 0; i < arr.length; i++){
+			if(dest.equals(arr[i])){//比较的是内容
 				System.out.println("找到了指定的元素，位置为：" + i);
 				isFlag = false;
 				break;
 			}
-			
 		}
+
 		if(isFlag){
 			System.out.println("很遗憾，没有找到的啦！");
-			
 		}
+
+
 		//二分法查找：(熟悉)
 		//前提：所要查找的数组必须有序。
 		int[] arr2 = new int[]{-98,-34,2,34,54,66,79,105,210,333};
@@ -68,7 +68,7 @@ public class ArrayTest2 {
 		int end = arr2.length - 1;//初始的末索引
 		boolean isFlag1 = true;
 		while(head <= end){
-			
+
 			int middle = (head + end)/2;
 			
 			if(dest1 == arr2[middle]){
@@ -80,14 +80,10 @@ public class ArrayTest2 {
 			}else{//arr2[middle] < dest1
 				head = middle + 1;
 			}
-
-			
 		}
 		
 		if(isFlag1){
 			System.out.println("很遗憾，没有找到的啦！");
 		}
-		
-		
 	}
 }
