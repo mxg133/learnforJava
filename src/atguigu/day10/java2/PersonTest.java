@@ -20,8 +20,6 @@ package atguigu.day10.java2;
  *    ③ 如果一个类中有n个构造器，则最多有 n - 1构造器中使用了"this(形参列表)"
  *    ④ 规定："this(形参列表)"必须声明在当前构造器的首行
  *    ⑤ 构造器内部，最多只能声明一个"this(形参列表)"，用来调用其他的构造器
- * 
- * 
  */
 public class PersonTest {
 	public static void main(String[] args) {
@@ -42,13 +40,10 @@ public class PersonTest {
 }
 
 class Person{
-	
 	private String name;
 	private int age;
-	
-	
+
 	public Person(){
-		
 //		this.eat();
 		String info = "Person初始化时，需要考虑如下的1,2,3,4...(共40行代码)";
 		System.out.println(info);
@@ -57,13 +52,11 @@ class Person{
 	public Person(String name){
 		this();
 		this.name = name;
-		
 	}
 	
 	public Person(int age){
 		this();
 		this.age = age;
-		
 	}
 	
 	public Person(String name,int age){

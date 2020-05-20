@@ -30,7 +30,6 @@ public class Bank {
 		if (index >= 0 && index < numberOfCustomers) {
 			return customers[index];
 		}
-
 		return null;
 	}
 
