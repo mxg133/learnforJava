@@ -16,8 +16,7 @@ public class TriAngle { //angle:角    angel:天使
 		base = b;
 		height = h;
 	}
-	
-	
+
 	public void setBase(double b){
 		base = b;
 	}

@@ -6,7 +6,6 @@ package atguigu.day10.java1;
 		>类是公共的
 		>有一个无参的公共的构造器
 		>有属性，且有对应的get、set方法
-
  * 
  */
 public class Customer {

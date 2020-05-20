@@ -1,6 +1,7 @@
 package atguigu.day10.java1;
 
-import com.atguigu.java.Order;
+
+import atguigu.day10.java.Order;
 
 public class OrderTest {
 	public static void main(String[] args) {
