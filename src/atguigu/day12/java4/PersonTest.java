@@ -1,7 +1,5 @@
 package atguigu.day12.java4;
 
-
-
 /*
  * 面向对象特征之三：多态性
  * 
@@ -18,8 +16,6 @@ package atguigu.day12.java4;
  * 5.对象的多态性，只适用于方法，不适用于属性（编译和运行都看左边）
  */
 public class PersonTest {
-	
-	
 	public static void main(String[] args) {
 		
 		Person p1 = new Person();
