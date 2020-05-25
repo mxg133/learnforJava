@@ -33,7 +33,5 @@ public class ComparableCircle extends Circle implements CompareObject{
 //			return 0;
 			throw new RuntimeException("传入的数据类型不匹配");
 		}
-		
 	}
-	
 }

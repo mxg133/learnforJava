@@ -45,7 +45,7 @@ interface Flyable{
 	
 	//全局常量
 	public static final int MAX_SPEED = 7900;//第一宇宙速度
-	int MIN_SPEED = 1;//省略了public static final
+	int MIN_SPEED = 1;//省略了public static9 final
 	
 	//抽象方法
 	public abstract void fly();

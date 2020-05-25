@@ -65,11 +65,9 @@ class Computer{
 
 interface USB{
 	//常量：定义了长、宽、最大最小的传输速度等
-	
 	void start();
 	
 	void stop();
-	
 }
 
 class Flash implements USB{
