@@ -10,8 +10,7 @@ public class InnerClassTest1 {
 			
 		}
 	}
-	
-	
+
 	//返回一个实现了Comparable接口的类的对象
 	public Comparable getComparable(){
 		
@@ -25,7 +24,7 @@ public class InnerClassTest1 {
 //			}
 //			
 //		}
-//		
+//
 //		return new MyComparable();
 		
 		//方式二：
@@ -37,7 +36,5 @@ public class InnerClassTest1 {
 			}
 			
 		};
-		
 	}
-	
 }
