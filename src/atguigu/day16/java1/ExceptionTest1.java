@@ -91,7 +91,7 @@ public class ExceptionTest1 {
 		}catch(NumberFormatException e){
 //			System.out.println("出现数值转换异常了，不要着急....");
 			//String getMessage():
-//			System.out.println(e.getMessage());
+			System.out.println(e.getMessage());
 			//printStackTrace():
 			e.printStackTrace();
 		}catch(NullPointerException e){

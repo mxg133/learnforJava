@@ -37,8 +37,6 @@ public class FinallyTest {
 				System.out.print((char)data);
 				data = fis.read();
 			}
-			
-			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -70,7 +68,7 @@ public class FinallyTest {
 			e.printStackTrace();
 			return 2;
 		}finally{
-			System.out.println("我一定会被执行");
+			System.out.println("我一定会被先执行");
 			return 3;
 		}
 		

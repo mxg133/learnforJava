@@ -12,12 +12,9 @@ public class StudentTest {
 			System.out.println(e.getMessage());
 		}
 	}
-	
 }
 
-
 class Student{
-	
 	private int id;
 	
 	public void regist(int id) throws Exception {
@@ -32,13 +29,11 @@ class Student{
 			//错误的
 //			throw new String("不能输入负数");
 		}
-		
 	}
 
 	@Override
 	public String toString() {
 		return "Student [id=" + id + "]";
 	}
-	
-	
+
 }
