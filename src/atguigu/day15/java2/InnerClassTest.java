@@ -29,6 +29,7 @@ public class InnerClassTest {
 		//创建Dog实例(静态的成员内部类):
 		Person.Dog dog = new Person.Dog();
 		dog.show();
+
 		//创建Bird实例(非静态的成员内部类):
 //		Person.Bird bird = new Person.Bird();//错误的
 		Person p = new Person();
@@ -90,7 +91,7 @@ class Person{
 	public void method(){
 		//局部内部类
 		class AA{
-			
+
 		}
 	}
 	
